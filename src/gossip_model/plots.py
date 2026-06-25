@@ -9,6 +9,17 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import numpy as np
 
+# Larger font defaults for report/presentation figures.
+plt.rcParams.update({
+    "font.size": 16,
+    "axes.titlesize": 18,
+    "axes.labelsize": 16,
+    "xtick.labelsize": 14,
+    "ytick.labelsize": 14,
+    "legend.fontsize": 14,
+    "figure.titlesize": 20,
+})
+
 def ensure_dir(path: str | Path) -> Path:
     path = Path(path)
     path.mkdir(parents=True, exist_ok=True)
