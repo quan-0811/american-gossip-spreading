@@ -1,6 +1,6 @@
 # American Gossip Spreading
 
-Mathematical Modeling capstone project on **the spread of gossip in American school friendship networks**.
+IT4033E - Mathematical Modeling capstone project at HUST on **the spread of gossip in American school friendship networks**.
 
 The project models a school as a graph:
 
